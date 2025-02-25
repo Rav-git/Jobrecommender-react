@@ -24,7 +24,7 @@ This guide provides instructions for deploying the AI Job Matcher application in
 
 3. Access the application:
    - Frontend: http://localhost
-   - Backend API: http://localhost:5000
+   - Backend API: https://jobrecommender-react.onrender.com
 
 ## Manual Deployment
 

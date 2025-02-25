@@ -39,7 +39,7 @@ docker-compose up --build -d
 if [ $? -eq 0 ]; then
     echo "Deployment successful!"
     echo "Frontend: http://localhost"
-    echo "Backend: http://localhost:5000"
+    echo "Backend: https://jobrecommender-react.onrender.com"
 else
     echo "Deployment failed. Please check the logs for more information."
     exit 1
