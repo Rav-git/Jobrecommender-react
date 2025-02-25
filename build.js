@@ -72,7 +72,7 @@ try {
   // Create a runtime config file with environment variables
   if (fs.existsSync(buildDir)) {
     const runtimeConfig = {
-      API_URL: process.env.REACT_APP_API_URL || 'http://localhost:5000'
+      API_URL: process.env.REACT_APP_API_URL || 'https://jobrecommender-react.onrender.com'
     };
     
     fs.writeFileSync(
